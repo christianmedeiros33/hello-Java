@@ -10,6 +10,7 @@ public class HomemTest {
 
         Homem homem = new Homem();
         homem.setNome("Adao");
+        homem.setIdade(12);
         homem.setNomeDaEsposa("Eva");
         homem.setTemFilhos(true);
         homem.setCasado(true);

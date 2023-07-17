@@ -9,6 +9,7 @@ public class PessoaTest {
     public void criarPessoa(){
         Pessoa pessoa = new Pessoa();
         pessoa.setNome("Joao");
+        pessoa.setIdade(19);
 //        System.out.println(pessoa.getNome());
         Assert.assertEquals("Joao", pessoa.getNome());
     }

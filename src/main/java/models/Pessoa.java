@@ -1,6 +1,6 @@
 package models;
 
-public class Pessoa {
+public class Pessoa implements DadosObrigatorios {
     private String nome;
     private Integer idade;
     private String certidaoNascimento;
@@ -18,14 +18,15 @@ public class Pessoa {
         this.nome = nome;
     }
 
+    @Override
     public Integer getIdade() {
         return idade;
     }
 
+    @Override
     public void setIdade(Integer idade) {
         this.idade = idade;
     }
-
     public String getCertidaoNascimento() {
         return certidaoNascimento;
     }
